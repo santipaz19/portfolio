@@ -4,6 +4,7 @@ import carrousel1 from '../../img/carrousel1.png'
 import carrousel2 from '../../img/carrousel2.png'
 import carrousel3 from '../../img/carrousel3.png'
 import carrousel4 from '../../img/carrousel4.png'
+import { Link } from 'react-router-dom'
 
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
@@ -25,19 +26,27 @@ export default function Carrousel() {
                 modules={[Navigation, Pagination, EffectCoverflow]}>
                 <SwiperSlide>
                     <div className={style.card}>
-                        <img src={carrousel1} alt="" className={style.img} />
+                        <Link to={'https://lpvanstravel.vercel.app/'} target="_blank">
+                            <img src={carrousel1} alt="" className={style.img} />
+                            <div className={style.text}>Corporate web</div>
+                        </Link>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className={style.card}>
+                        <img src={carrousel2} alt="" className={style.img} />
                         <div className={style.text}>Rick & Morty APP</div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={carrousel2} alt="" className={style.img} />
-                    <div className={style.text}>Corporate web</div>
+                    <div className={style.card}>
+                        <img src={carrousel3} alt="" className={style.img} />
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={carrousel3} alt="" className={style.img} />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src={carrousel4} alt="" className={style.img} />
+                    <div className={style.card}>
+                        <img src={carrousel4} alt="" className={style.img} />
+                    </div>
                 </SwiperSlide>
             </Swiper>
         </div>
