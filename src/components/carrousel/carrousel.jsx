@@ -1,8 +1,8 @@
 import style from './carrousel.module.css'
 import { Swiper, SwiperSlide } from "swiper/react"
-import carrousel1 from '../../img/carrousel1.png'
-import carrousel2 from '../../img/carrousel2.png'
-import carrousel3 from '../../img/carrousel3.png'
+import lpvans from '../../img/carrousel1.png'
+import rick from '../../img/carrousel2.png'
+import ecommers from '../../img/ecommers.jpg'
 import carrousel4 from '../../img/carrousel4.png'
 import { Link } from 'react-router-dom'
 
@@ -27,20 +27,23 @@ export default function Carrousel() {
                 <SwiperSlide>
                     <div className={style.card}>
                         <Link to={'https://lpvanstravel.vercel.app/'} target="_blank">
-                            <img src={carrousel1} alt="" className={style.img} />
+                            <img src={lpvans} alt="" className={style.img} />
                             <div className={style.text}>Corporate web</div>
                         </Link>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className={style.card}>
-                        <img src={carrousel2} alt="" className={style.img} />
-                        <div className={style.text}>Rick & Morty APP</div>
+                        <Link to={'https://rick-morty-santipaz19.vercel.app/'} target="_blank">
+                            <img src={rick} alt="" className={style.img} />
+                            <div className={style.text}>Rick & Morty APP</div>
+                        </Link>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className={style.card}>
-                        <img src={carrousel3} alt="" className={style.img} />
+                        <img src={ecommers} alt="" className={style.img} />
+                        <div className={style.text}>E-Commers Cooming soon</div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>

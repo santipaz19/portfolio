@@ -45,6 +45,31 @@
     transition-duration: 0.25s;
 }
 
+.btn {
+    background-color: #8d8d8d6f;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    color: white;
+    /* border-radius: 30px; */
+    /* transition: 0.4s ease; */
+    margin-bottom: 0px;
+    border-radius: 20px;
+    border: solid 1px rgb(125, 125, 125);
+    height: fit-content;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    transition: 0.2s ease;
+    background-color: #fafafa10;
+}
+
+.btn:hover {
+    scale: 1.05;
+    color: white;
+}
+
 .icon:hover {
     outline-offset: 3px;
     animation: shake 1s;

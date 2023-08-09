@@ -14,6 +14,11 @@
 .card {
     border-radius: 10px;
     background-color: #454545;
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    scale: 1.01;
 }
 
 .slider {
