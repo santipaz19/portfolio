@@ -1,0 +1,70 @@
+.container {
+    min-height: 100vh;
+    align-items: center;
+    place-items: center;
+    display: grid;
+    z-index: 1;
+}
+
+.text {
+    color: white;
+    font-size: 3vw;
+    bottom: 5vh;
+    /* width: 100vw; */
+}
+
+.textme {
+    color: #cf1259ff;
+}
+
+.textform {
+    font-size: 5vw;
+}
+
+.h {
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background-color: rgb(175, 175, 175);
+    border: 0 none;
+}
+
+.redes {
+    display: flex;
+    column-gap: 25px;
+    margin-top: 0px
+}
+
+.icon {
+    display: inline-flex;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    outline: 2px solid #fff;
+    transition-property: outline-offset, outline-color, background-color;
+    transition-duration: 0.25s;
+}
+
+.icon:hover {
+    outline-offset: 3px;
+    animation: shake 1s;
+    outline: 3.5px solid #fff;
+}
+
+@keyframes shake {
+    10% {
+        transform: rotate(10deg);
+    }
+
+    20% {
+        transform: rotate(-10deg);
+    }
+
+    30% {
+        transform: rotate(10deg);
+    }
+
+    40% {
+        transform: rotate(-10deg);
+    }
+}

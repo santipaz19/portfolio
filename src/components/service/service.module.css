@@ -1,0 +1,42 @@
+.container3 {
+    min-height: 100vh;
+    align-items: center;
+    place-items: center;
+
+}
+
+.icons {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
+    padding: 10px;
+    margin: 10px;
+    max-height: 50px;
+    transition: 0.3s ease;
+}
+
+.icons:hover {
+    background-color: #d6d6d633;
+    scale: 1.1;
+
+}
+
+.skills {
+    /* padding-top: 10vh; */
+}
+
+.h {
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background-color: rgb(175, 175, 175);
+    border: 0 none;
+}
+
+.subtext2 {
+    font-size: 50px;
+    /* color: #cf1259ff; */
+    color: #71A9F7;
+    padding-top: 10vh;
+    /* font-weight: 600; */
+}
