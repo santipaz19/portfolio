@@ -22,7 +22,7 @@ export default function Nav() {
                 <Link to="service" spy={true} smooth={true} offset={0} duration={1500} className={style.links}>
                     <p>Proyects</p>
                 </Link>
-                <Link className={style.links}>
+                <Link to="contact" spy={true} smooth={true} offset={0} duration={1500} className={style.links}>
                     <p>Contact</p>
                 </Link>
             </div>

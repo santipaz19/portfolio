@@ -3,7 +3,6 @@ import ig from '../../img/ig.png'
 import linkedin from '../../img/linkedin.png'
 import gmail from '../../img/gmail.png'
 import github from '../../img/github.png'
-import Baffle from "baffle-react";
 import { Link } from 'react-router-dom'
 
 

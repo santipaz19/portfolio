@@ -6,6 +6,7 @@ import Particle from './components/backparticle/particle';
 import About from './components/about/about';
 import Proyects from './components/service/service';
 import Skills from './components/skills/skills';
+import Contact from './components/contact/contact';
 
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
       <Skills />
       <hr className="h" />
       <Proyects />
+      <hr className="h" />
+      <Contact />
     </div>
 
   );
