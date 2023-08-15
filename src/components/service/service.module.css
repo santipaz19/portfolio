@@ -5,26 +5,6 @@
 
 }
 
-.icons {
-    background-color: #fff;
-    border-radius: 11px;
-    box-shadow: 0 3px 10px var(--secondary-shadow);
-    padding: 10px;
-    margin: 10px;
-    max-height: 50px;
-    transition: 0.3s ease;
-}
-
-.icons:hover {
-    background-color: #d6d6d633;
-    scale: 1.1;
-
-}
-
-.skills {
-    padding-top: 2vh;
-}
-
 .h {
     width: 80%;
     height: 3px;
@@ -35,8 +15,16 @@
 
 .subtext2 {
     font-size: 50px;
-    /* color: #cf1259ff; */
-    color: #71A9F7;
-    padding-top: 5vh;
-    /* font-weight: 600; */
+    letter-spacing: 5px;
+    color: #cf1259ff;
+    margin: 0px;
+    text-transform: uppercase;
+    transition: 1s;
+    text-shadow: 0 0 5px rgba(207, 18, 90, 0.656), 0 0 25px rgba(207, 18, 90, 0.656), 0 0 50px rgba(207, 18, 90, 0.656), 0 0 100px rgba(207, 18, 90, 0.656);
+    padding-top: 10vh;
+    margin-bottom: 5vh;
+}
+
+.carrousel {
+    padding-top: 100vh;
 }

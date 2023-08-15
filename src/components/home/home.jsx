@@ -3,7 +3,7 @@ import ig from '../../img/ig.png'
 import linkedin from '../../img/linkedin.png'
 import gmail from '../../img/gmail.png'
 import github from '../../img/github.png'
-
+import Baffle from "baffle-react";
 import { Link } from 'react-router-dom'
 
 
@@ -14,14 +14,12 @@ export default function Home() {
         <div>
             <div name='home' className={style.container}>
                 <h1 className={style.text}>Hi! I'm
-                    <span className={style.textme}> Santiago </span> <br />
-                    <span className={style.textform}>Full Stack Developer</span></h1>
+                    <span className={style.textme}> Santiago</span>
+                    <br />
+                    <span className={style.textform}>Full Stack Developer</span>
+                </h1>
                 <div>
-                    <a href="./SantiCV.pdf" download>
-                        <button className={style.btn}>
-                            Download CV
-                        </button>
-                    </a>
+
                 </div>
                 <div className={style.redes}>
                     <Link to={'https://www.instagram.com/santi.paz19/'} target="_blank">
@@ -37,6 +35,11 @@ export default function Home() {
                         <img src={gmail} alt="social" className={style.icon} />
                     </Link>
                 </div>
+                <a href="./SantiCV.pdf" download>
+                    <button className={style.btn}>
+                        Download CV
+                    </button>
+                </a>
             </div>
         </div>
 

@@ -16,8 +16,11 @@ export default function Nav() {
                 <Link to="about" spy={true} smooth={true} offset={0} duration={1500} className={style.links}>
                     <p>About</p>
                 </Link>
+                <Link to="skills" spy={true} smooth={true} offset={0} duration={1500} className={style.links}>
+                    <p>Skills</p>
+                </Link>
                 <Link to="service" spy={true} smooth={true} offset={0} duration={1500} className={style.links}>
-                    <p>Service</p>
+                    <p>Proyects</p>
                 </Link>
                 <Link className={style.links}>
                     <p>Contact</p>

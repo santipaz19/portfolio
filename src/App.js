@@ -4,7 +4,8 @@ import Nav from './components/navbar/navbar'
 import Home from './components/home/home';
 import Particle from './components/backparticle/particle';
 import About from './components/about/about';
-import Service from './components/service/service';
+import Proyects from './components/service/service';
+import Skills from './components/skills/skills';
 
 
 function App() {
@@ -16,7 +17,9 @@ function App() {
       <hr className="h" />
       <About />
       <hr className="h" />
-      <Service />
+      <Skills />
+      <hr className="h" />
+      <Proyects />
     </div>
 
   );

@@ -48,7 +48,10 @@ export default function Carrousel() {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className={style.card}>
-                        <img src={carrousel4} alt="" className={style.img} />
+                        <Link to={'https://portfolio-santipaz19.vercel.app/'}>
+                            <img src={carrousel4} alt="" className={style.img} />
+                            <div className={style.text}>Portfolio personal</div>
+                        </Link>
                     </div>
                 </SwiperSlide>
             </Swiper>
