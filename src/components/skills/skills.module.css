@@ -80,4 +80,5 @@
 .icons:hover {
     background-color: #ffffff6f;
     transform: scale(1.1);
+    border-radius: 10px;
 }

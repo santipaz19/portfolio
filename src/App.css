@@ -4,8 +4,12 @@
   min-height: 100vh;
   padding-top: 10px;
   z-index: -1;
-  margin-left: 20px;
-  margin-right: 20px;
+  /* margin-left: 20px;
+  margin-right: 20px; */
+}
+
+.scroll {
+  background-color: aqua;
 }
 
 .h {
