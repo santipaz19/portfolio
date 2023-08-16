@@ -20,7 +20,7 @@ export default function Nav() {
                     <p>Skills</p>
                 </Link>
                 <Link to="service" spy={true} smooth={true} offset={0} duration={1500} className={style.links}>
-                    <p>Proyects</p>
+                    <p>Projects</p>
                 </Link>
                 <Link to="contact" spy={true} smooth={true} offset={0} duration={1500} className={style.links}>
                     <p>Contact</p>

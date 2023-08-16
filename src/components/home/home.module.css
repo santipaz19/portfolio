@@ -112,4 +112,8 @@
     .icon {
         outline: none
     }
+
+    .icon:hover {
+        outline: none
+    }
 }

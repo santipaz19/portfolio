@@ -94,6 +94,10 @@
         display: flex;
     }
 
+    .icons {
+        height: 40px;
+    }
+
     .skills2 {
         display: grid;
         grid-template-columns: repeat(1, 1fr);

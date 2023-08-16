@@ -99,4 +99,13 @@
     .icon {
         outline: none
     }
+
+    .icon:hover {
+        outline: none
+    }
+
+    .subtext1 {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
 }
