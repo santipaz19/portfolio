@@ -23,6 +23,12 @@
     grid-gap: 10px;
 }
 
+.skills2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
 .skillscontainer {
     display: flex;
 }
@@ -81,4 +87,15 @@
     background-color: #ffffff6f;
     transform: scale(1.1);
     border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .skills {
+        display: flex;
+    }
+
+    .skills2 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

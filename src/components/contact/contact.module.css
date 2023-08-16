@@ -90,3 +90,13 @@
         transform: rotate(-10deg);
     }
 }
+
+@media (max-width: 768px) {
+    .redes {
+        margin-top: 5vh;
+    }
+
+    .icon {
+        outline: none
+    }
+}

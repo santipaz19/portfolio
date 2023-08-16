@@ -65,3 +65,9 @@ p:hover {
     color: white;
     scale: 1.05;
 }
+
+@media (max-width: 768px) {
+    .logo {
+        display: none;
+    }
+}

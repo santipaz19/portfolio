@@ -50,3 +50,9 @@
     padding: 30px;
     font-weight: 200;
 }
+
+@media (max-width: 768px) {
+    .img {
+        display: none;
+    }
+}

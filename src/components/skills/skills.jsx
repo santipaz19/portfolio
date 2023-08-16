@@ -27,7 +27,7 @@ export default function Skills() {
                     </div>
                 </Fade>
                 <Fade triggerOnce='false' cascade={true} damping={0.5} duration='1500' delay={500} direction='up'>
-                    <div className={style.skills}>
+                    <div className={style.skills2}>
                         <div className={style.column}>
                             <img src={react} alt='react' className={style.icons} />
                             <img src={js} alt='javascript' className={style.icons} />
