@@ -23,9 +23,9 @@ export default function Home() {
 
                     </div>
                     <div className={style.redes}>
-                        <Link to={'https://www.instagram.com/santi.paz19/'} target="_blank">
+                        {/* <Link to={'https://www.instagram.com/santi.paz19/'} target="_blank">
                             <img src={ig} alt="social" className={style.icon} />
-                        </Link>
+                        </Link> */}
                         <Link to={'https://www.linkedin.com/in/dev-santiagopaz/'} target="_blank">
                             <img src={linkedin} alt="social" className={style.icon} />
                         </Link>
@@ -36,7 +36,7 @@ export default function Home() {
                             <img src={gmail} alt="social" className={style.icon} />
                         </Link>
                     </div>
-                    <a href="./SantiCV.pdf" download>
+                    <a href="./ProfessionalCV.pdf" download>
                         <button className={style.btn}>
                             Download CV
                         </button>

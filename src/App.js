@@ -24,8 +24,8 @@ function App() {
       <ScrollToTop smooth={true} color='#cf1259ff' className='scroll' />
       <Skills />
       <hr className="h" />
-      <Proyects />
-      <hr className="h" />
+      {/* <Proyects /> */}
+      {/* <hr className="h" /> */}
       <Contact />
       {/* </Fade> */}
     </div>
