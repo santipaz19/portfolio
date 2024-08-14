@@ -18,9 +18,9 @@ export default function Contact() {
                     <h3 className={style.subtext1}>I am always looking for new opportunities to collaborate with dynamic teams and projects. If you are looking for a passionate and committed web designer, I would be happy to connect with you and explore how I can contribute to your organization.</h3>
                 </div>
                 <div className={style.redes}>
-                    <Link to={'https://www.instagram.com/santi.paz19/'} target="_blank">
+                    {/* <Link to={'https://www.instagram.com/santi.paz19/'} target="_blank">
                         <img src={ig} alt="social" className={style.icon} />
-                    </Link>
+                    </Link> */}
                     <Link to={'https://www.linkedin.com/in/dev-santiagopaz/'} target="_blank">
                         <img src={linkedin} alt="social" className={style.icon} />
                     </Link>
